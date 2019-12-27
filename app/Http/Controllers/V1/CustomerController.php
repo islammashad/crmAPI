@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Customer;
 use Validator;
 
-class CustomerContrller extends Controller
+class CustomerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,8 +17,14 @@ class CustomerContrller extends Controller
     public function index()
     {
         $customers = Customer::all();
+        if (empty($customers)) {
+         $response = [
+            'success' => false,
+            'message' => 'There are no customers to be retrieved'
+        ];
+        }
         $data = $customers->toArray();
-
+        
         $response = [
             'success' => true,
             'data' =>$data,
@@ -59,7 +65,7 @@ class CustomerContrller extends Controller
            $response = [
             'success' =>false,
             'data' => 'validation error',
-            'message' =>$validator->errors();
+            'message' =>$validator->errors()
            ];
            return response()->json($response,404);
         }

@@ -24,7 +24,7 @@ class UserController extends Controller
 	            $response = [
 	                'success' => false,
 	                'data' => 'Validation Error.',
-	                'message' => $validator->errors()
+	                'message' => $validator->errors(),
 	            ];
 	            return response()->json($response, 404);
 	        }
@@ -55,7 +55,7 @@ class UserController extends Controller
             $user = Auth::user();
             $success['token'] = $user->createToken('crmApp')->accessToken;
 
-            return response()->json(['success' => $success], 200);
+            return response()->json(['User Logined successfully' => $success], 200);
         } else {
             return response()->json(['error' => 'Unauthorised'], 401);
         }
