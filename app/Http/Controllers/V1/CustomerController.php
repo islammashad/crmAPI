@@ -17,12 +17,6 @@ class CustomerController extends Controller
     public function index()
     {
         $customers = Customer::all();
-        if (empty($customers)) {
-         $response = [
-            'success' => false,
-            'message' => 'There are no customers to be retrieved'
-        ];
-        }
         $data = $customers->toArray();
         
         $response = [
