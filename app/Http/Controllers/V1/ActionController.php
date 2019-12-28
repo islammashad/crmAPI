@@ -39,10 +39,11 @@ class ActionController extends Controller
     {
 
         $action = new Action;
+        $customerId = $request->cid;
         $action->name = $request->name;
         $action->save();
 
-        $customer = Customer::find(3);
+        $customer = Customer::find(4);
         $action->customers()->attach($customer);
      
         $response = [
