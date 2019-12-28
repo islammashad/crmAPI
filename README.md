@@ -57,15 +57,10 @@ Update action on customer   API: Verb: PUT, URL: http://127.0.0.1:8000/api/actio
 
 ### Database Tables  ###
 
-Customers 
-![2](https://user-images.githubusercontent.com/18046350/71546849-f9c37b00-29a2-11ea-9fae-dc62ae1f8366.PNG)
-Actions 
-![action-table](https://user-images.githubusercontent.com/18046350/71546851-0b0c8780-29a3-11ea-9e86-308ecad53116.PNG)
-Acions on customer tables 
-![action-customer-table](https://user-images.githubusercontent.com/18046350/71546860-15c71c80-29a3-11ea-8e26-df520c0480bc.PNG)
+![11](https://user-images.githubusercontent.com/18046350/71546912-88d09300-29a3-11ea-9093-fd8566dccf49.PNG)
 
+![22](https://user-images.githubusercontent.com/18046350/71546917-8e2ddd80-29a3-11ea-9f87-9f20356051de.PNG)
 
-
-
+![33](https://user-images.githubusercontent.com/18046350/71546918-9128ce00-29a3-11ea-846a-74d9ed6f9039.PNG)
 
 Thank you.
