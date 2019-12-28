@@ -51,14 +51,21 @@ Add action on customer   API: Verb: POST, URL: http://127.0.0.1:8000/api/actions
 
 ![add-action-to-customer](https://user-images.githubusercontent.com/18046350/71546210-4015db80-299d-11ea-8fbf-fe829b83356b.PNG)
 
-Database Table  of the relation 
-
-![action-customer-table](https://user-images.githubusercontent.com/18046350/71546807-92a5c680-29a2-11ea-9721-2b63794fda7e.PNG)
-
-
 Update action on customer   API: Verb: PUT, URL: http://127.0.0.1:8000/api/actions/10
 
 ![update-action-on-customer](https://user-images.githubusercontent.com/18046350/71546225-6e93b680-299d-11ea-8a46-8a65c26ea822.PNG)
+
+### Database Tables  ###
+
+Customers 
+![2](https://user-images.githubusercontent.com/18046350/71546849-f9c37b00-29a2-11ea-9fae-dc62ae1f8366.PNG)
+Actions 
+![action-table](https://user-images.githubusercontent.com/18046350/71546851-0b0c8780-29a3-11ea-9e86-308ecad53116.PNG)
+Acions on customer tables 
+![action-customer-table](https://user-images.githubusercontent.com/18046350/71546860-15c71c80-29a3-11ea-8e26-df520c0480bc.PNG)
+
+
+
 
 
 Thank you.
