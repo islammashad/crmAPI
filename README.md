@@ -51,6 +51,11 @@ Add action on customer   API: Verb: POST, URL: http://127.0.0.1:8000/api/actions
 
 ![add-action-to-customer](https://user-images.githubusercontent.com/18046350/71546210-4015db80-299d-11ea-8fbf-fe829b83356b.PNG)
 
+Database Table  of the relation 
+
+![action-customer-table](https://user-images.githubusercontent.com/18046350/71546807-92a5c680-29a2-11ea-9721-2b63794fda7e.PNG)
+
+
 Update action on customer   API: Verb: PUT, URL: http://127.0.0.1:8000/api/actions/10
 
 ![update-action-on-customer](https://user-images.githubusercontent.com/18046350/71546225-6e93b680-299d-11ea-8a46-8a65c26ea822.PNG)
